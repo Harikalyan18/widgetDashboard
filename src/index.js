@@ -7,7 +7,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <MantineProvider withGlobalStyles withNormalizeCSS>
+  <MantineProvider>
   <App />
 </MantineProvider>
 );
