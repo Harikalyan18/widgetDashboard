@@ -9,12 +9,7 @@ import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      {/* <VolumetricsWidget /> */}
-      {/* <h1>React App</h1> */}
-      {/* <SelectCategory /> */}
-      {/* <SelectLocation /> */}
-      {/* <WidgetDashboard /> */}
+    <div>
       <Dashboard />
     </div>
   );
