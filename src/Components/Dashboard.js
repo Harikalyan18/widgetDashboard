@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Container, Card, Text, Image, Center } from "@mantine/core";
 
 const Dashboard = () => {
-    const [selectedCategory, setSelectedCategory] = useState("Commerce");
-    const [selectedLocation, setSelectedLocation] = useState("Singapore");
+    const [selectedCategory, setSelectedCategory] = useState("");
+    const [selectedLocation, setSelectedLocation] = useState("");
 
     const categories = [
         { id: "Entertainment", icon: "🎬", name: "Entertainment" },
